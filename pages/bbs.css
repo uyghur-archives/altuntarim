@@ -1,0 +1,101 @@
+html, input, div, table, textarea, select, p, td, body{ FONT-SIZE:10pt; FONT-FAMILY:"UKIJ Tuz Tom"}
+@font-face {  font-family: "UKIJ Tuz Tom";   src: url(http://www.altuntarim.net/altuntarim.eot);  }
+
+
+A:visited{TEXT-DECORATION:none;}
+A:link{TEXT-DECORATION:none;}
+A:hover{TEXT-DECORATION:underline;}
+
+body,TD{FONT-SIZE:10pt;word-break:break-all;}	/* 字体大小 */
+body{background-color:#1A60A8;}			/* 背景颜色 */
+.nsf{color:#FFFFFF}				/* 底部版权信息文字颜色 */
+.footerSection{background-color:#1A60A8;}	/* 底部版权信息背景颜色 */
+
+.shdrbg{COLOR: #FFFFFF;}
+
+.mainnav{
+	background-color:#2A79BA;
+	TEXT-ALIGN: left;
+	PADDING-TOP: 4px; 
+	PADDING-BOTTOM: 4px; 
+	PADDING-LEFT: 22px; 
+	PADDING-RIGHT: 22px; 
+	COLOR: #ffffff;
+}
+.mainnav A {COLOR: #ffffff}
+
+.mainbody{BACKGROUND-COLOR: E8F1F8;
+	PADDING-TOP: 10px; 
+	PADDING-BOTTOM: 10px; 
+	PADDING-LEFT: 10px; 
+	PADDING-RIGHT: 10px; 
+}
+
+
+/* 宽度及颜色 */
+#TableWidth{width:100%;}
+#TableTitleLink A:link,#TableTitleLink A:visited{COLOR:000000;}
+.a1{BACKGROUND-IMAGE: url(mid_grad.gif);FONT-WEIGHT: bold; COLOR: #000000;}
+.a2{BACKGROUND-COLOR: A3C7E2;}
+.a3{BACKGROUND-COLOR: FFFFFF;}
+.a4{BACKGROUND-COLOR: F9F9F9;}
+
+
+/* 按钮样式 */
+.CommonImageTextButton {
+BORDER-TOP:#cccccc 1px solid;
+BORDER-RIGHT:#999999 1px solid;
+BORDER-BOTTOM:#999999 1px solid; 
+BORDER-LEFT:#cccccc 1px solid; 
+PADDING-BOTTOM: 4px; 
+PADDING-RIGHT: 4px;
+PADDING-LEFT: 22px; 
+PADDING-TOP: 4px; 
+FONT-WEIGHT: bold; 
+DISPLAY:inline-block;
+COLOR: #333333;
+BACKGROUND-POSITION: 2px;
+BACKGROUND-REPEAT: no-repeat; 
+BACKGROUND-COLOR: #eeeeee
+}
+
+/* 编辑器凹凸样式 */
+TD.StatusBarBtnOff {padding:1px 5px;border:1px outset;cursor:pointer;}
+TD.StatusBarBtnOn {padding:1px 5px;border:1px inset;background-color: #EEEEEE;}
+
+/* 菜单样式 */
+.menuskin {
+	BORDER-RIGHT: #0A2999 1px solid ;
+	BORDER-TOP: #0A2999 1px solid;
+	BORDER-LEFT: #0A2999 1px solid;
+	BORDER-BOTTOM: #0A2999 1px solid;
+	BACKGROUND-IMAGE: url(menubg.gif);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+}
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+#mouseoverstyle {
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	BORDER-RIGHT: #0B008B 1px solid;
+	BORDER-TOP: #0B008B 1px solid;
+	BORDER-LEFT: #0B008B 1px solid;
+	BORDER-BOTTOM: #0B008B 1px solid;
+	BACKGROUND-COLOR: #FFEEC2 
+}
+.menuskin A {PADDING-RIGHT:10px;PADDING-LEFT:30px;}
+
+/* YBB代码引用样式 */
+BLOCKQUOTE {
+	BORDER-RIGHT: #cccccc 1px dotted; PADDING-RIGHT: 4px; BORDER-TOP: #cccccc 1px dotted; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 16px; BORDER-LEFT: #cccccc 1px dotted; PADDING-TOP: 4px; BORDER-BOTTOM: #cccccc 1px dotted
+}
